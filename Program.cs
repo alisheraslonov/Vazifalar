@@ -144,3 +144,42 @@
        //                 Console.Write($" {z} ");
        //         }
        // }
+//Basics.Tanlash bo’limi uchun 1-amaliy vazifa
+//1.String ustida amallar
+
+       // System.Console.WriteLine("So'z kiriting: ");
+       // string str = System.Console.ReadLine();
+       // System.Console.WriteLine("Ixtiyoriy son kiriting: ");
+       // int a = Convert.ToInt32(Console.ReadLine());
+       // int b = str.Length;
+       // if(a>b){
+       //        System.Console.WriteLine(str.ToUpper());
+       // }
+       // else{
+       //        System.Console.WriteLine(str.ToLower());
+       // }
+
+//2.Quyida ternary operator bilan ifodalandan qiymatni if-else yordamida ifodalang. 
+
+       // int x = 15,y = 10;
+       // if(x > y)System.Console.WriteLine("x is greater than y");
+       // else if (x < y)System.Console.WriteLine("x less than y");
+       // else if(x == y)System.Console.WriteLine("x is equal to y");
+       // else System.Console.WriteLine("x and y are not comparable");
+
+//3.Consoleda o’zbek tilida kiritilgan hafta kunini ingliz tiliga o’girib, natijani ekranga chiqaradigan dastur tuzing. Switch expression dan foydalaning!
+
+       //  Console.Write("Hafta kunini o'zbek tilida kiriting: ");
+       //  string dayUzbek = Console.ReadLine();
+       //  string dayEnglish = dayUzbek switch
+       //  {
+       //      "Dushanba" => "Monday",
+       //      "Seshanba" => "Tuesday",
+       //      "Chorshanba" => "Wednesday",
+       //      "Payshanba" => "Thursday",
+       //      "Juma" => "Friday",
+       //      "Shanba" => "Saturday",
+       //      "Yakshanba" => "Sunday",
+       //      _ => "Noto'g'ri hafta kuni kiritildi!"  
+       //  };
+       //  Console.WriteLine($"Ingliz tilida: {dayEnglish}");
