@@ -183,3 +183,51 @@
        //      _ => "Noto'g'ri hafta kuni kiritildi!"  
        //  };
        //  Console.WriteLine($"Ingliz tilida: {dayEnglish}");
+//Basics.Tanlash bo'limi uchun 2-amaliy vazifa
+//1.Vaqt kalkulyatori:
+
+       // System.Console.Write("Daqiqalarni kiriting: ");
+       // int a = Convert.ToInt32(Console.ReadLine());
+       // int d = a/60;
+       // int b = a - d*60;
+       // System.Console.WriteLine($"{d}:{b}"); 
+
+//2.Yosh toifasini aniqlash:       
+
+       // System.Console.Write("Yoshingizni kiriting: ");
+       // int a = Convert.ToInt32(Console.ReadLine());
+       // if(0 < a && a <= 12)System.Console.WriteLine("Bola");
+       // else if(12 < a && a <= 19)System.Console.WriteLine("O'smir");
+       // else if(19 < a && a <= 59)System.Console.WriteLine("Kattalar");
+       // else if(a==60)System.Console.WriteLine("Katta");
+       // else if(a<0)System.Console.WriteLine("Yoshingiz manfiy bo'lishi mumkin emas!");
+       // else System.Console.WriteLine("Qariyalar");
+
+//3.O'rtacha ballni hisoblash:
+
+       // System.Console.Write("Balingizni kiriting: ");
+       // int a = Convert.ToInt32(Console.ReadLine());
+       // string message = 
+       //     (a >= 80 && a <= 100) ? "A'lo" 
+       //     : (a >= 60 && a <= 79) ? "Yaxshi" 
+       //     : (a >= 40 && a <= 59) ? "Qoniqarli" 
+       //     : (a < 40 && a>=0) ? "Qoniqarsiz" 
+       //     : "Noto'g'ri baho kiritildi!";
+
+       // System.Console.WriteLine(message);
+
+//4."Raqamni toping" o'yini:       
+
+       //  Random rand = new Random();
+       //  int a = rand.Next(1, 101);
+       //  int b = 0;
+       //  while (b != a)
+       //  {
+       //      Console.Write("1 dan 100 gacha bo'lgan sonni taxmin qiling: ");
+       //      b = Convert.ToInt32(Console.ReadLine());
+       //      string message = 
+       //      (b >a) ? "Kichikroq sonni kiriting." 
+       //      : (b < a) ? "Kattaroq sonni kiriting." 
+       //      : "Tabriklaymiz! Siz to'g'ri topdingiz!";
+       //      Console.WriteLine(message);
+       //  }
