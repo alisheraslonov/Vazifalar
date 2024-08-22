@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vazifalar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b4db49c6f1f0cee678ad6af92d6db8e969591a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efe55cbc577ab677f1bddf8802c53e62ebfb3d19")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vazifalar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vazifalar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -231,3 +231,73 @@
        //      : "Tabriklaymiz! Siz to'g'ri topdingiz!";
        //      Console.WriteLine(message);
        //  }
+//Basics.Tanlash bo’limi uchun 3-amaliy vazifa
+//1.Palindrome Tekshiruvi
+       //         Console.Write("So'zni kiriting: ");
+       //         string a = Console.ReadLine();
+       //         if (Palindrome(a)){
+       //             Console.WriteLine("Palindrom");
+       //         }
+       //         else{
+       //             Console.WriteLine("Palindrom emas");
+       //         }
+       //     static bool Palindrome(string str)    {
+       //         int left = 0;
+       //         int right = str.Length - 1;
+       //         while (left < right){
+       //             if (str[left] != str[right]){
+       //                 return false;
+       //             }
+       //             left++;
+       //             right--;
+       //         }
+       //         return true;
+       //     }
+
+//2.Temperatura o'girish
+       //      System.Console.Write("Graduslar bo'yicha temperaturani kiriting: ");
+       //      double a = Convert.ToDouble(Console.ReadLine());
+       //      switch(a){
+       //        default : 
+       //               double b = (a * 9/5) + 32;
+       //               double d = a + 273.15;
+       //               System.Console.WriteLine($"Selsiyus: {a}, Fahrenheit: {b}, Kelvin: {d}");
+       //               break;
+                     
+       //      }
+
+//3.Sonlarni tartiblash
+
+       //  Console.Write("Sonlarni kiriting: ");
+       //  string a = Console.ReadLine();
+       //  int[] b = a.Split(',',' ').Select(int.Parse).ToArray();
+       //  switch (b.Length)
+       //  {
+       //      default:
+       //          Array.Sort(b);
+       //          Console.WriteLine("Tartiblangan qator: " + string.Join(", ", b));
+       //          Array.Reverse(b);
+       //          Console.WriteLine("Teskari tartib: " + string.Join(", ", b));
+       //          break;
+       // }
+
+//4.Berilgan matnning simvol sanasini hisoblash
+
+       //  Console.Write("Matnni kiriting: ");
+       //  string str = Console.ReadLine();
+       //  Dictionary<char, int> charCount = new Dictionary<char, int>();
+       //  foreach (char c in str)
+       //  {
+       //      if (charCount.ContainsKey(c))
+       //      {
+       //          charCount[c]++;
+       //      }
+       //      else
+       //      {
+       //          charCount[c] = 1;
+       //      }
+       //  }
+       //  foreach (var pair in charCount)
+       //  {
+       //      Console.WriteLine($"'{pair.Key}': {pair.Value} martta");
+       //  }       
