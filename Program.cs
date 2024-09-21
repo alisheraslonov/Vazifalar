@@ -301,3 +301,38 @@
        //  {
        //      Console.WriteLine($"'{pair.Key}': {pair.Value} martta");
        //  }       
+
+//Basics.Takrorlash bo’limi uchun 1-amaliy vazifa
+//1 dan 1000 gacha bo’lgan toq sonlarni yig’indisini ekranga chiqaradigan dastur tuzing. While loop dan foydalaning!
+
+       // int a = 1;
+       // while(a<=1000){
+       //        System.Console.WriteLine(a);
+       //        a++;
+       // }
+
+//2 Array ichidagi eng katta va eng kichik qiymatlarni ko’paytmasini ekranga chiqaradigan dastur tuzing. For loop dan foydalaning!       
+
+       //       int[] a = { 12, 24, 3, 4, 15, 6 };
+       //         int b = a[0]; 
+       //         int c = a[0]; 
+       //         for (int i = 1; i < a.Length; i++){
+       //             if (a[i] > b){
+       //                 b = a[i];
+       //             }
+       //             else if (a[i] < c){
+       //                 c = a[i];
+       //             }
+       //         }
+       //         int natija = b * c;
+       //         Console.WriteLine("Eng katta va eng kichik qiymatlarning ko'paytmasi: " + natija);
+
+//3 Consolga int tipidagi butun son kiritilgan => int x x! (x factorial) ni hisoblaydigan dastur tuzing.
+       
+       // System.Console.Write("Son kiriting: ");
+       // int x = Convert.ToInt32(Console.ReadLine());
+       // int sum = 1;
+       // for(int i=1; i<=x; i++){
+       //        sum *= i;
+       // }
+       // System.Console.WriteLine(sum);       
