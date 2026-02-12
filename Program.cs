@@ -335,4 +335,74 @@
        // for(int i=1; i<=x; i++){
        //        sum *= i;
        // }
-       // System.Console.WriteLine(sum);       
+       // System.Console.WriteLine(sum);    
+
+//Basics. Tanlash boʻlimi uchun 4-amaliy vazifa
+
+
+// 1-masala
+
+// System.Console.Write("Buyruqni kiriting: ");
+// string operation = System.Console.ReadLine();;
+
+// string retur = operation switch
+// {
+//     "yur"=>"Robot yuryapti!",
+//     "tushun"=>"Robot tushundi!",
+//     "sakra"=>"Robot sakrayapti!",
+//     "o'giril"=>"Robot o'girildi",
+//     _=>"Noma'lum buyruq"
+// };
+// System.Console.WriteLine(retur);
+
+// 2-masala
+
+// System.Console.Write("Mahsulot nomini kiriting: ");
+// string mahsulot = System.Console.ReadLine();
+
+// string[] meva = { "olma", "banan", "anor", "gilos" };
+// int[] narx = { 5_000, 7_000, 11_000, 9_000 };
+
+// bool topildi = false;
+
+// for (int i = 0; i < meva.Length; i++)
+// {
+//     if (mahsulot == meva[i])
+//     {
+//         System.Console.WriteLine($"{meva[i]} ning narxi {narx[i]} so'm");
+//         topildi = true;
+//         break;
+//     }
+// }
+
+// if (!topildi)
+// {
+//     System.Console.WriteLine("Kechirasiz bunday mahsulot yo'q!");
+// }
+
+// 3-masala
+
+// string oldrang="";
+// while (true)
+// {
+// System.Console.Write("Rang kiriting: ");
+// string rang = System.Console.ReadLine(); 
+//     if (rang == "yashil" && oldrang == "yashil")
+//     {
+//         Console.WriteLine("Tez yurmayman!");
+//     }
+//     else if (rang == "stop")
+//     {
+//         break;
+//     } 
+//     else
+//     {
+//         string a = rang=="yashil" ? "Yuring":
+//                     rang=="sariq" ? "Tayyorlaning":
+//                     rang=="qizil" ? "To'xtang":
+//                     "Noma'lum rang";
+//         System.Console.WriteLine(a);
+//     }
+//     oldrang = rang;
+// }
+
